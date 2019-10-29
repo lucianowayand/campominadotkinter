@@ -1,3 +1,4 @@
+
 class Matrix:
     def __init__(self,linhas,colunas):
         self.matrix = []
@@ -9,6 +10,9 @@ class Matrix:
         for i in range(r):
             self.matrix.append([])
 
-m = Matrix(10,10)
+    def initiateMatrix(self);
+        for i in range (self.linhas):
+            for j in range(self.colunas):
+                self.matrix[i].append(j)
 
-print(m.matrix)
+m = Matrix(10,10)
